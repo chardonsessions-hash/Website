@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Chardon Sessions mark</title>
+  <desc id="desc">A circular wine, gold, and sea-blue CS monogram.</desc>
+  <defs>
+    <radialGradient id="g" cx="34%" cy="24%" r="72%">
+      <stop offset="0" stop-color="#f3cc86" stop-opacity="0.95"/>
+      <stop offset="0.32" stop-color="#c51e63" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#100817"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="55" fill="url(#g)" stroke="#f3cc86" stroke-opacity="0.46" stroke-width="2"/>
+  <path d="M24 80 C42 50, 80 50, 96 80" fill="none" stroke="#41c8d2" stroke-width="3" stroke-opacity="0.55"/>
+  <path d="M28 38 C48 28, 75 28, 92 42" fill="none" stroke="#f3cc86" stroke-width="2" stroke-opacity="0.45"/>
+  <text x="60" y="69" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#fff7fb" filter="url(#glow)" letter-spacing="2">CS</text>
+</svg>
