@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">The Selkie Ceilidh cover art</title>
+  <desc id="desc">A gothic ocean ballroom scene with moonlight, storm clouds, waves, and a dancing selkie silhouette.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#150b22"/>
+      <stop offset="0.45" stop-color="#331233"/>
+      <stop offset="1" stop-color="#05060c"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="20%" r="42%">
+      <stop offset="0" stop-color="#f5dfb8" stop-opacity="0.95"/>
+      <stop offset="0.18" stop-color="#f0c987" stop-opacity="0.5"/>
+      <stop offset="0.42" stop-color="#4dc5cf" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wineGlow" cx="20%" cy="78%" r="55%">
+      <stop offset="0" stop-color="#b8205a" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#07131c"/>
+      <stop offset="0.5" stop-color="#123442"/>
+      <stop offset="1" stop-color="#070912"/>
+    </linearGradient>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#sky)"/>
+  <rect width="1200" height="1500" fill="url(#moonGlow)"/>
+  <rect width="1200" height="1500" fill="url(#wineGlow)"/>
+
+  <circle cx="600" cy="285" r="150" fill="#f2dcad" opacity="0.96"/>
+  <path d="M0 385 C185 320 274 360 398 328 C561 286 640 352 806 306 C965 262 1060 304 1200 250 L1200 0 L0 0 Z" fill="#070711" opacity="0.48"/>
+  <path d="M0 462 C200 392 310 440 456 395 C620 345 740 418 922 356 C1030 319 1110 330 1200 300 L1200 0 L0 0 Z" fill="#100817" opacity="0.72"/>
+
+  <g opacity="0.38" stroke="#f0c987" stroke-width="2" fill="none">
+    <path d="M245 390 C260 545 260 770 225 1025"/>
+    <path d="M955 390 C940 545 940 770 975 1025"/>
+    <path d="M178 524 C390 462 810 462 1022 524"/>
+    <path d="M148 642 C390 585 810 585 1052 642"/>
+  </g>
+
+  <g opacity="0.18" stroke="#f6edf8" stroke-width="3" fill="none">
+    <path d="M105 550 C275 470 450 535 600 488 C770 435 935 478 1095 420"/>
+    <path d="M90 690 C280 620 440 680 615 628 C782 579 935 637 1115 565"/>
+  </g>
+
+  <rect y="875" width="1200" height="625" fill="url(#sea)"/>
+  <path d="M0 918 C150 850 250 970 405 905 C555 842 690 940 840 885 C1010 823 1110 895 1200 852 L1200 1500 L0 1500 Z" fill="#0b1f2b" opacity="0.96"/>
+  <path d="M0 1015 C165 940 268 1065 410 1006 C570 940 695 1048 850 988 C1010 927 1118 1004 1200 960 L1200 1500 L0 1500 Z" fill="#08141d" opacity="0.92"/>
+
+  <g opacity="0.62" fill="none" stroke="#4dc5cf" stroke-width="6" stroke-linecap="round">
+    <path d="M68 980 C172 945 230 1035 340 994"/>
+    <path d="M484 1012 C605 962 695 1050 820 1004"/>
+    <path d="M867 928 C1012 880 1075 958 1162 921"/>
+    <path d="M160 1134 C292 1082 392 1169 520 1114" opacity="0.5"/>
+    <path d="M680 1175 C822 1118 940 1200 1098 1146" opacity="0.44"/>
+  </g>
+
+  <ellipse cx="600" cy="1086" rx="340" ry="74" fill="#f0c987" opacity="0.09" filter="url(#softBlur)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M608 590 C646 668 644 748 615 824 C604 850 592 880 602 915 C620 982 696 1045 748 1102 C654 1086 573 1055 506 1003 C453 961 415 915 406 868 C392 796 460 750 500 703 C532 664 550 625 552 584 C571 576 590 576 608 590 Z" fill="#07070d" opacity="0.94"/>
+    <circle cx="582" cy="538" r="48" fill="#08080e"/>
+    <path d="M548 548 C455 610 382 704 331 830" stroke="#090910" stroke-width="31" stroke-linecap="round" fill="none"/>
+    <path d="M621 560 C725 621 800 705 862 830" stroke="#090910" stroke-width="30" stroke-linecap="round" fill="none"/>
+    <path d="M452 790 C535 750 649 750 758 800 C703 864 628 894 538 878 C496 870 465 842 452 790 Z" fill="#13081a"/>
+    <path d="M492 890 C410 974 356 1048 294 1162" stroke="#07070d" stroke-width="30" stroke-linecap="round" fill="none"/>
+    <path d="M662 900 C762 990 836 1060 913 1185" stroke="#07070d" stroke-width="30" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <path d="M506 650 C548 707 610 720 675 676" stroke="#f0c987" stroke-opacity="0.45" stroke-width="4" fill="none"/>
+  <path d="M405 852 C520 802 642 805 800 870" stroke="#b8205a" stroke-opacity="0.72" stroke-width="7" fill="none"/>
+
+  <g opacity="0.9">
+    <text x="600" y="1285" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="82" fill="#f6edf8" letter-spacing="-2">The Selkie Ceilidh</text>
+    <text x="600" y="1354" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" fill="#f0c987" letter-spacing="8">CHARDON SESSIONS</text>
+  </g>
+</svg>
